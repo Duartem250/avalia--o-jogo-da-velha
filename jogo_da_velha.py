@@ -40,7 +40,7 @@ while True:
             print("Não houve vencedor!")
             break
     else:
-        print("Essa posição já está ocupada. Tente novamente.")
+        print("Essa posição já está ocupada. Tente novamente, caso realize a mesma jogada anterior você irá perder a vez!")
         linhax = int(input("Informe a linha da jogada:"))
         colunax = int(input("Informe a coluna da jogada:"))
         if jogo[linhax][colunax] == "":
@@ -115,7 +115,7 @@ while True:
             break
 
     else:
-        print("Essa posição já está ocupada. Tente novamente.")
+        print("Essa posição já está ocupada. Tente novamente, caso realize a mesma jogada anterior você irá perder a vez!")
         inhao = int(input("Informe a linha da jogada:"))
         colunao = int(input("Informe a coluna da jogada:"))
         if jogo[linhao][colunao] == "":
