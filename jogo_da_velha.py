@@ -147,6 +147,10 @@ while True:
         for c in range(3):
             print(f'[{jogo[l][c]: ^5}]', end='')
         print()
+for l in range(3):
+        for c in range(3):
+            print(f'[{jogo[l][c]: ^5}]', end='')
+        print()
     
     
 
